@@ -19,10 +19,10 @@
 
 #include <inttypes.h>
 
-/* Started from version 5.10.0 DataFlashBlockDevice external repo is depricated. 
+/* Started from version 5.10.0 DataFlashBlockDevice external repo is deprecated. 
    please use the DataFlashBlockDevice component inside mbed-os.*/
 #if defined(MBED_MAJOR_VERSION) && MBED_MAJOR_VERSION >= 5 && (MBED_VERSION >= MBED_ENCODE_VERSION(5,10,0))
-#error "Started from version 5.10.0 DataFlashBlockDevice external repo is depricated. please use the DataFlashBlockDevice component inside mbed-os."
+#error "Started from version 5.10.0 DataFlashBlockDevice external repo is deprecated. please use the DataFlashBlockDevice component inside mbed-os."
 #endif
 
 /* constants */
